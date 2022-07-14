@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+  background-color: gray; 
+  text-align: center;
+
+}
+.grid{
+   border: 2px solid brown;
+   width: 400px;
+   height: 400px;
+   display: flex;
+   flex-wrap: wrap;
+   margin: auto;
+  
+
+}
+.grid div{
+    width: 40px;
+    height: 40px;
+    /* border:1px black solid;
+box-sizing:border-box; */
+}
+.snake{
+    background-color: black;
+    border-radius: 15px;
+}
+.apple{
+    background-color: red;
+}
+.popup {
+    background: rgb(32, 31, 31);
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
